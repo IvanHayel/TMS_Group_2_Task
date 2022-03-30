@@ -10,9 +10,9 @@
 
 ### 2. [Distribution of responsibility](https://github.com/IvanHayel/TMS_Group_2_Task#distribution-of-responsibility)
 
-### 3. [Tasks in progress](https://github.com/IvanHayel/TMS_Group_2_Task#3-tasks-in-progress)
+### 3. [Tasks in progress](https://github.com/IvanHayel/TMS_Group_2_Task#tasks-in-progress)
 
-### 4. [Completed tasks](https://github.com/IvanHayel/TMS_Group_2_Task#4-completed-tasks)
+### 4. [Completed tasks](https://github.com/IvanHayel/TMS_Group_2_Task#completed-tasks-)
 
 --- 
 
