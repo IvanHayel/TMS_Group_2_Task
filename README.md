@@ -40,7 +40,6 @@
 ---
 
 ### Tasks in progress
-- [ ] `Entity`
 - [ ] `EntityStorage`
 - [ ] `User`
 - [ ] `Operation`
@@ -55,3 +54,5 @@
 - [ ] `Frontend`
 
 ### Completed tasks ✅
+
+- [X] `Entity`

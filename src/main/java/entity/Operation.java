@@ -1,4 +1,4 @@
 package entity;
 
-public class Operation {
+public class Operation extends Entity {
 }
