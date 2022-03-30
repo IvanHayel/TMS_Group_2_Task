@@ -14,6 +14,8 @@
 
 ### 4. [Completed tasks](https://github.com/IvanHayel/TMS_Group_2_Task#completed-tasks-)
 
+### 5. [Clone and run project. Step by step.](https://github.com/IvanHayel/TMS_Group_2_Task#clone-and-run-project-step-by-step)
+
 --- 
 
 ### Task description
@@ -40,6 +42,7 @@
 ---
 
 ### Tasks in progress
+
 - [ ] `EntityStorage`
 - [ ] `User`
 - [ ] `Operation`
@@ -56,3 +59,57 @@
 ### Completed tasks ✅
 
 - [X] `Entity`
+
+---
+
+### Clone and run project. Step by step.
+
+![first](https://github.com/IvanHayel/TMS_Group_2_Task/blob/master/instructions/clone-run-instruction/first.png)
+
+---
+
+![second](https://github.com/IvanHayel/TMS_Group_2_Task/blob/master/instructions/clone-run-instruction/second.png)
+
+---
+
+![third](https://github.com/IvanHayel/TMS_Group_2_Task/blob/master/instructions/clone-run-instruction/third.png)
+
+---
+
+![fourth](https://github.com/IvanHayel/TMS_Group_2_Task/blob/master/instructions/clone-run-instruction/fourth.png)
+
+---
+
+![fifth](https://github.com/IvanHayel/TMS_Group_2_Task/blob/master/instructions/clone-run-instruction/fifth.png)
+
+---
+
+![sixth](https://github.com/IvanHayel/TMS_Group_2_Task/blob/master/instructions/clone-run-instruction/sixth.png)
+
+---
+
+![seventh](https://github.com/IvanHayel/TMS_Group_2_Task/blob/master/instructions/clone-run-instruction/seventh.png)
+
+---
+
+![eighth](https://github.com/IvanHayel/TMS_Group_2_Task/blob/master/instructions/clone-run-instruction/eighth.png)
+
+---
+
+![ninth](https://github.com/IvanHayel/TMS_Group_2_Task/blob/master/instructions/clone-run-instruction/ninth.png)
+
+---
+
+![tenth](https://github.com/IvanHayel/TMS_Group_2_Task/blob/master/instructions/clone-run-instruction/tenth.png)
+
+---
+
+![eleventh](https://github.com/IvanHayel/TMS_Group_2_Task/blob/master/instructions/clone-run-instruction/eleventh.png)
+
+---
+
+![twelfth](https://github.com/IvanHayel/TMS_Group_2_Task/blob/master/instructions/clone-run-instruction/twelfth.png)
+
+---
+
+![thirteenth](https://github.com/IvanHayel/TMS_Group_2_Task/blob/master/instructions/clone-run-instruction/thirteenth.png)
