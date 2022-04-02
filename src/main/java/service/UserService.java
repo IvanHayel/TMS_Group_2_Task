@@ -26,6 +26,14 @@ public class UserService {
         return userStorage.find(id);
     }
 
+    public User find(String login){
+        return userStorage.findAll().stream()
+                .filter(user -> user.getLogin().equals(login))
+                .findFirst()
+                .orElse(null);
+
+    }
+
     public boolean remove(int id) {
         return userStorage.remove(id);
     }
