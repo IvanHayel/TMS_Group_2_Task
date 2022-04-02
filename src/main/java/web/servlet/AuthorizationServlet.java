@@ -18,7 +18,7 @@ public class AuthorizationServlet extends HttpServlet {
 
     private static final String AUTHORIZATION_PAGE_PATH = "/pages/authorization.jsp";
     private static final String HOME_PATH = "/";
-    private static final String AUTHORIZATION_PARAMETER = "login";
+    private static final String LOGIN_PARAMETER = "login";
     private static final String PASSWORD_PARAMETER = "password";
     private static final String USER_ATTRIBUTE = "user";
 
@@ -36,7 +36,7 @@ public class AuthorizationServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws IOException {
         session = req.getSession();
-        String login = req.getParameter(AUTHORIZATION_PARAMETER);
+        String login = req.getParameter(LOGIN_PARAMETER);
         String password = req.getParameter(PASSWORD_PARAMETER);
         if (login == null || password == null) {
             resp.sendError(HttpServletResponse.SC_BAD_REQUEST);

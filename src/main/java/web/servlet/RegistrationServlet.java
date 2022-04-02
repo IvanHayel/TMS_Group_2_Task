@@ -18,7 +18,7 @@ public class RegistrationServlet extends HttpServlet {
     private static final String REGISTRATION_PAGE_PATH = "/pages/registration.jsp";
     private static final String AUTHORIZATION_PATH = "/authorization";
     private static final String HOME_PATH = "/";
-    private static final String AUTHORIZATION_PARAMETER = "login";
+    private static final String LOGIN_PARAMETER = "login";
     private static final String PASSWORD_PARAMETER = "password";
     private static final String NAME_PARAMETER = "name";
     private static final String SURNAME_PARAMETER = "surname";
@@ -37,7 +37,7 @@ public class RegistrationServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws IOException, ServletException {
         session = req.getSession();
-        String login = req.getParameter(AUTHORIZATION_PARAMETER);
+        String login = req.getParameter(LOGIN_PARAMETER);
         String password = req.getParameter(PASSWORD_PARAMETER);
         String name = req.getParameter(NAME_PARAMETER);
         String surname = req.getParameter(SURNAME_PARAMETER);
