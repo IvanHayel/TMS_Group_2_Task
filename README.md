@@ -43,22 +43,22 @@
 
 ### Tasks in progress
 
-- [ ] `EntityStorage`
-- [ ] `User`
 - [ ] `Operation`
-- [ ] `UserService`
 - [ ] `OperationService`
-- [ ] `RegistrationServlet`
-- [ ] `AuthorizationServlet`
-- [ ] `LogoutServlet`
 - [ ] `CalculationServlet`
 - [ ] `CalculationHistoryServlet`
-- [ ] `AuthorizationFilter`
 - [ ] `Frontend`
 
 ### Completed tasks ✅
 
 - [X] `Entity`
+- [X] `EntityStorage`
+- [X] `User`
+- [X] `UserService`
+- [X] `RegistrationServlet`
+- [X] `AuthorizationServlet`
+- [X] `LogoutServlet`
+- [X] `AuthorizationFilter`
 
 ---
 
