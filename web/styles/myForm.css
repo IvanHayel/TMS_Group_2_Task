@@ -1,0 +1,18 @@
+
+.myForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.btn1{
+    width: 18%;
+    height: 34px;
+    position: absolute;
+    bottom: 0;
+    left: 40%;
+    top: 58%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
