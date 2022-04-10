@@ -44,8 +44,7 @@ public class AuthorizationServlet extends HttpServlet {
             User user = userService.find(login);
             if (user.getPassword().equals(password)) {
                 session.setAttribute(USER_ATTRIBUTE, user);
-            }
-            doGet(req, resp);
-        }
+            } else doGet(req, resp);
+        } else doGet(req, resp);
     }
 }

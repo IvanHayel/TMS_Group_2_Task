@@ -6,46 +6,54 @@ public class Operation extends Entity {
     private double secondValue;
     private double result;
 
-    public Operation() {
-    }
-
-    public Operation(String operand, double firstValue, double secondValue, double result) {
+    public Operation(String operand, double firstValue, double secondValue) {
         this.operand = operand;
         this.firstValue = firstValue;
         this.secondValue = secondValue;
-        this.result = result;
+        calculate();
+    }
+
+    private void calculate() {
+        switch (operand) {
+            case "+":
+            case "add":
+            case "sum":
+                result = firstValue + secondValue;
+                break;
+            case "-":
+            case "sub":
+            case "subtract":
+                result = firstValue - secondValue;
+                break;
+            case "*":
+            case "mult":
+            case "multiply":
+                result = firstValue * secondValue;
+                break;
+            case "/":
+            case "div":
+            case "divide":
+                result = firstValue / secondValue;
+                break;
+            default:
+                result = Double.NaN;
+        }
     }
 
     public String getOperand() {
         return operand;
     }
 
-    public void setOperand(String operand) {
-        this.operand = operand;
-    }
-
     public double getFirstValue() {
         return firstValue;
-    }
-
-    public void setFirstValue(double firstValue) {
-        this.firstValue = firstValue;
     }
 
     public double getSecondValue() {
         return secondValue;
     }
 
-    public void setSecondValue(double secondValue) {
-        this.secondValue = secondValue;
-    }
-
     public double getResult() {
         return result;
-    }
-
-    public void setResult(double result) {
-        this.result = result;
     }
 
     @Override

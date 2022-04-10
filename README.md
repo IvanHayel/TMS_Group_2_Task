@@ -43,7 +43,6 @@
 
 ### Tasks in progress
 
-- [ ] `Operation`
 - [ ] `OperationService`
 - [ ] `CalculationServlet`
 - [ ] `CalculationHistoryServlet`
@@ -59,6 +58,7 @@
 - [X] `AuthorizationServlet`
 - [X] `LogoutServlet`
 - [X] `AuthorizationFilter`
+- [X] `Operation`
 
 ---
 
