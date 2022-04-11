@@ -27,6 +27,7 @@
 > 4) CalculationHistoryServlet (only for authorized user)
 >
 > In the `history`, output all operations with a formatted date when this operation was made.
+> Additionally: write unit tests and arrange logs.
 
 ---
 
@@ -47,6 +48,8 @@
 - [ ] `CalculationServlet`
 - [ ] `CalculationHistoryServlet`
 - [ ] `Frontend`
+- [ ] `Cover with unit tests`
+- [ ] `Cover with logs`
 
 ### Completed tasks ✅
 
