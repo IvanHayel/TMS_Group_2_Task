@@ -34,7 +34,8 @@ public class AuthorizationServlet extends HttpServlet {
     }
 
     @Override
-    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws IOException {
+    @SneakyThrows(IOException.class)
+    protected void doPost(HttpServletRequest req, HttpServletResponse resp) {
         session = req.getSession();
         String login = req.getParameter(LOGIN_PARAMETER);
         String password = req.getParameter(PASSWORD_PARAMETER);
@@ -42,9 +43,9 @@ public class AuthorizationServlet extends HttpServlet {
             resp.sendError(HttpServletResponse.SC_BAD_REQUEST);
         } else if (userService.isLoginExist(login)) {
             User user = userService.find(login);
-            if (user.getPassword().equals(password)) {
+            if (user != null && user.getPassword().equals(password))
                 session.setAttribute(USER_ATTRIBUTE, user);
-            } else doGet(req, resp);
-        } else doGet(req, resp);
+        }
+        doGet(req, resp);
     }
 }
