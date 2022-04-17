@@ -1,13 +1,12 @@
 package entity;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
 public abstract class Entity {
+    protected static final double DOUBLE_DEFAULT_VALUE = 0.0;
+
     protected int id;
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
 }

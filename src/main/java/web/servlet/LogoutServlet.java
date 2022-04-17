@@ -7,13 +7,14 @@ import jakarta.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
 
-@WebServlet(name = "LogoutServlet", value = "/logout")
-public class LogoutServlet extends HttpServlet {
-    private static final String HOME_PATH = "/";
+import static constant.CalculatorWebConstants.PATH_HOME;
+import static constant.CalculatorWebConstants.PATH_LOGOUT;
 
+@WebServlet(name = "LogoutServlet", value = PATH_LOGOUT)
+public class LogoutServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException {
-        resp.sendRedirect(HOME_PATH);
+        resp.sendRedirect(PATH_HOME);
         req.getSession().invalidate();
     }
 }

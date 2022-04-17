@@ -14,7 +14,9 @@
 
 ### 4. [Completed tasks](https://github.com/IvanHayel/TMS_Group_2_Task#completed-tasks-)
 
-### 5. [Clone and run project. Step by step.](https://github.com/IvanHayel/TMS_Group_2_Task#clone-and-run-project-step-by-step)
+### 5. [How it works?]()
+
+### 6. [Clone and run project. Step by step.](https://github.com/IvanHayel/TMS_Group_2_Task#clone-and-run-project-step-by-step)
 
 --- 
 
@@ -33,21 +35,17 @@
 
 ### Distribution of responsibility
 
-|      **Dev**       | **Realize**                                                                           |
-|:------------------:|:--------------------------------------------------------------------------------------|
-| **Jana + Andrian** | `Entity`, `EntityStorage`                                                             |
-|      **Jana**      | `User`, `UserService`, `RegistrationServlet`, `AuthorizationServlet`, `LogoutServlet` |
-|    **Andrian**     | `Operation`, `OperationService`, `CalculationServlet`, `CalculationHistoryServlet`    |
-|    **Dmitriy**     | `AuthorizationFilter`, `Home page` (html, css, bootstrap, jsp, jstl)                  |
+|        **Dev**         | **Realize**                                                                           |
+|:----------------------:|:--------------------------------------------------------------------------------------|
+| **Jana + ~~Andrian~~** | `Entity`, `EntityStorage`                                                             |
+|        **Jana**        | `User`, `UserService`, `RegistrationServlet`, `AuthorizationServlet`, `LogoutServlet` |
+|    **~~Andrian~~**     | `Operation`, `OperationService`, `CalculationServlet`, `CalculationHistoryServlet`    |
+|      **Dmitriy**       | `AuthorizationFilter`, `Home page` (html, css, bootstrap, jsp, jstl)                  |
 
 ---
 
 ### Tasks in progress
 
-- [ ] `OperationService`
-- [ ] `CalculationServlet`
-- [ ] `CalculationHistoryServlet`
-- [ ] `Frontend`
 - [ ] `Cover with unit tests`
 - [ ] `Cover with logs`
 
@@ -62,6 +60,16 @@
 - [X] `LogoutServlet`
 - [X] `AuthorizationFilter`
 - [X] `Operation`
+- [X] `OperationService`
+- [X] `CalculationServlet`
+- [X] `CalculationHistoryServlet`
+- [X] `Frontend`
+
+---
+
+### How it works?
+
+
 
 ---
 

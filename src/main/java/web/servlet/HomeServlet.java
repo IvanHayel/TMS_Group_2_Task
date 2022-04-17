@@ -6,16 +6,19 @@ import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
+import lombok.SneakyThrows;
 
 import java.io.IOException;
 
-@WebServlet(name = "HomeServlet", value = "")
-public class HomeServlet extends HttpServlet {
-    private static final String HOME_PAGE_PATH = "/pages/home.jsp";
+import static constant.CalculatorWebConstants.PAGE_PATH_HOME;
+import static constant.CalculatorWebConstants.PATH_HOME;
 
+@WebServlet(name = "HomeServlet", value = PATH_HOME)
+public class HomeServlet extends HttpServlet {
     @Override
-    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        RequestDispatcher requestDispatcher = req.getRequestDispatcher(HOME_PAGE_PATH);
+    @SneakyThrows({IOException.class, ServletException.class})
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) {
+        RequestDispatcher requestDispatcher = req.getRequestDispatcher(PAGE_PATH_HOME);
         requestDispatcher.forward(req, resp);
     }
 }

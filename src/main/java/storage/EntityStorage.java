@@ -2,35 +2,16 @@ package storage;
 
 import entity.Entity;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Collection;
 
-public class EntityStorage<T extends Entity> {
-    private List<T> storage = new ArrayList<>();
+public interface EntityStorage<E extends Entity> {
+    Collection<E> getAll();
 
-    public List<T> findAll() {
-        return new ArrayList<>(storage);
-    }
+    boolean save(E entity);
 
-    public boolean save(T entity) {
-        return storage.add(entity);
-    }
+    E getEntityById(int id);
 
-    public T find(int id) {
-        return storage.stream()
-                .filter(entity -> entity.getId() == id)
-                .findFirst()
-                .orElse(null);
-    }
+    boolean deleteEntityById(int id);
 
-    public boolean remove(int id) {
-        T entityToRemove = find(id);
-        return storage.remove(entityToRemove);
-    }
-
-    public T update(T entity) {
-        T entityToUpdate = find(entity.getId());
-        entityToUpdate = entity;
-        return entityToUpdate;
-    }
+    E updateEntity(E entity);
 }
