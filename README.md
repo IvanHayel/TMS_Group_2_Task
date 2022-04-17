@@ -69,7 +69,29 @@
 
 ### How it works?
 
+#### Home view
 
+![home-view](screenshots/home-view.png)
+
+#### Authorization view
+
+![authorization-view](screenshots/authorization-view.png)
+
+#### Registration view
+
+![registration-view](screenshots/registration-view.png)
+
+#### Home view after authorization
+
+![home-view-after-authorization](screenshots/authorized-home-view.png)
+
+#### Calculation view
+
+![calculation-view](screenshots/calculation-view.png)
+
+#### Calculation history view
+
+![calculation-history-view](screenshots/calculation-history-view.png)
 
 ---
 
